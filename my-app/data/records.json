@@ -1,0 +1,175 @@
+{
+  "data1":{
+    "dates": {
+      "maximum": "2022-11-03",
+      "minimum": "2022-09-16"
+      },
+
+      "results": [
+      {
+      "backdrop_path": "a1_xdrone.jpg",
+      "id": 663712,
+      "title": "X Drone",
+      "funded": 80,
+      "description":" sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt",
+      "category":"Technology"
+      },
+      {
+      "backdrop_path": "a2_smartwatch.jpg",
+      "id": 436270,
+      "title": "ARwatch",
+      "funded": 70,
+      "description":" sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt",
+      "category":"Technology"
+      },
+      {
+      "backdrop_path": "a3_tinytv.jpg",
+      "id": 717728,
+      "title": "Tiny TV",
+      "funded": 80,
+      "description":" Neque porro quisquam est, qui dolorem eos qui ratione voluptatem sequi nesciunt",
+      "category":"Technology"
+      },
+      {
+      "backdrop_path": "a4_shelfy.jpg",
+      "id": 616820,
+      "title": "Shelfy",
+      "funded": 80,
+      "description":" ratione voluptatem sequi nesciunt sed quia  Neque porro quisquam est quia dolor sit",
+      "category":"Technology"    
+      },
+      {
+      "backdrop_path": "a5_orchestra.jpg",
+      "id": 985939,
+      "title": "VR Orchestra",
+      "funded": 80,
+      "description":"sequi nesciunt qui dolorem  dolores eos qui ratione voluptatem ipsum quia dolor sit",
+      "category":"Technology"
+      },
+      {
+      "backdrop_path": "a6_rangefinder.jpg",
+      "id": 760161,
+      "title": "Atlaz",
+      "funded": 80,
+      "description":" sed quia consequuntur magn sadce porro quisquam est, qui dolorem ipsum quia dolor sit",
+      "category":"Technology"
+      },
+      {
+      "backdrop_path": "a7_superstorage.jpg",
+      "id": 848058,
+      "title": "Instorage",
+      "funded": 80,
+      "description":" sed quia consequuntur magn sadce porro quisquam est, qui dolorem ipsum quia dolor sit",
+      "category":"Technology"
+      },
+      {
+      "backdrop_path": "a8_gulp.jpg",
+      "id": 916605,
+      "title": "Gulp",
+      "funded": 80,
+      "description":" sed quia consequuntur magn sadce porro quisquam est, qui dolorem ipsum quia dolor sit",
+      "category":"Technology"
+      },
+      {
+      "backdrop_path": "a9_howler.jpg",
+      "id": 759507,
+      "title": "Howler",
+      "funded": 80,
+      "description":" sed quia consequuntur magni dolores eos qui ratquisquam est, qui dolorem ipsum quia ",
+      "category":"Technology"
+      }
+      ]
+  },
+
+  "data2":{
+    "dates": {
+      "maximum": "2022-11-03",
+      "minimum": "2022-09-16"
+      },
+
+      "results": [
+      {
+      "backdrop_path": "b1_keychron.jpg",
+      "id": 663712,
+      "title": "KeyChron",
+      "funded": 32,
+      "description":" sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nescuam est ",
+      "category":"Technology"
+      },
+      {
+      "backdrop_path": "b2_yglasses.jpg",
+      "id": 436270,
+      "title": "Y glasses",
+      "funded": 19,
+      "description":" sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt quis",
+      "category":"Technology"
+      },
+      {
+      "backdrop_path": "b3_vessi.jpg",
+      "id": 717728,
+      "title": "Vessi",
+      "funded": 32,
+      "description":" sed quia consequuntur magni dolores eos qui ratione voluptatem sequi  Neque porro quis",
+      "category":"Technology"
+      },
+      {
+      "backdrop_path": "b4_elebot.jpg",
+      "id": 616820,
+      "title": "Elebot",
+      "funded": 42,
+      "description":" sed quia consequuntur magni dolores eos qui ratione voluptatem  Neque porro quis" ,
+      "category":"Technology"   
+      },
+      {
+      "backdrop_path": "b5_xeter.jpg",
+      "id": 985939,
+      "title": "Xeter",
+      "funded": 26,
+      "description":" sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nes Neque porro quis",
+      "category":"Technology"
+      },
+      {
+      "backdrop_path": "b6_ifory.jpg",
+      "id": 760161,
+      "title": "Ifory",
+      "funded": 32,
+      "description":" sed quia consequuntur magni dolores eo porro quisquam est, qui dolorem ipsum quia dolor sit",
+      "category":"Technology"
+      },
+      {
+      "backdrop_path": "b7_cleartab.jpg",
+      "id": 848058,
+      "title": "Clear Tab",
+      "funded": 80,
+      "description":" sed quia consequuntur magni dolores eos qui ratione voluptat qui dolorem ipsum quia dolor sit",
+      "category":"Technology"
+      },
+      {
+      "backdrop_path": "b8_dapper.jpg",
+      "id": 916605,
+      "title": "Dapper",
+      "funded": 15,
+      "description":" sed quia consequuntur magni dolo Neque porro quisquam est, qui dolorem ipsum quia dolor sit",
+      "category":"Technology"
+      },
+      {
+      "backdrop_path": "b9_boltaire.jpg",
+      "id": 759507,
+      "title": "Boltaire",
+      "funded": 24,
+      "description":" sed quia consequuntur magni dolores eoporro quisquam est, qui dolorem ipsum quia dolor sit",
+      "category":"Technology"
+      },
+      {
+        "backdrop_path": "b10_anvi.jpg",
+        "id": 759507,
+        "title": "Anvi",
+        "funded": 28,
+        "description":" sed quia consequuntur magni dolores eoporro quisquam est, qui dolorem ipsum quia dolor sit",
+        "category":"Technology"
+        }
+      ]
+
+  }
+ 
+  }
