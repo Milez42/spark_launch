@@ -1,4 +1,5 @@
 import React from 'react';
+
 function Footer() {
   return (
     <div className='footer-container'>
@@ -9,9 +10,9 @@ function Footer() {
             {/* <Link to='/About-Us'>About Us</Link>
             <Link to='/Blog'>Blog</Link>
             <Link to='/Stats'>Stats</Link> */}
-            <li>About Us</li>  
-            <li>Blog</li>  
-            <li>Stats</li>  
+            <a>About Us</a>  
+            <a>Blog</a>  
+            <a>Stats</a>  
             
           </div>
           <div class='footer-link-items'>
@@ -19,9 +20,9 @@ function Footer() {
             {/* <Link to='/Help-and-Support'>Help and Support</Link>
             <Link to='/Forward-Funds'>Forward Funds</Link>
             <Link to='/Our-Rules'>Our Rules</Link> */}
-            <li>Help and Support</li>  
-            <li>Forward Funds</li>  
-            <li>Our Rules</li>  
+            <a>Help and Support</a>  
+            <a>Forward Funds</a>  
+            <a>Our Rules</a>  
            
           </div>
         </div>
@@ -31,9 +32,9 @@ function Footer() {
             {/* <Link to='/Technology'>Technology</Link>
             <Link to='/Creative'>Creative</Link>
             <Link to='/Community'>Community</Link> */}           
-            <li>Technology</li>  
-            <li>Creative</li>  
-            <li>Community</li>  
+            <a>Technology</a>  
+            <a>Creative</a>  
+            <a>Community</a>  
           </div>
         </div>
       </div>

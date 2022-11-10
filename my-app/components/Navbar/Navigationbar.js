@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 // import {FaSearch} from 'react-icons/fa';
-import logo from '../../images/sl_logo.png'
+import logo from '../../images/sl_logo.png' 
 import { useEffect, useState } from "react";
 // import {Link} from 'react-router-dom'
 
@@ -19,7 +19,7 @@ export const NavigationBar = () => {
       <div className='fixed h-[4.25rem] flex items-center    w-screen'>  
         <div className='flex justify-between w-screen items-center '> 
             <ul className='flex items-center mx-[3rem] pt-[1rem] '>
-                <img src={logo} alt="" />
+                <Image src={logo} alt='/' className='navlogo' />   
                 <li className='navTextIcon mx-2 flex'>SparkLaunch </li>
                 <i class="fa-solid fa-magnifying-glass  navIcon " ></i>
             </ul>
