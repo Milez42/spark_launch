@@ -7,15 +7,15 @@ import { useEffect, useState } from "react";
 
 
 export const NavigationBar = () => {
-    const[isScrolled, setIsScrolled] = useState(false);
-      window.onscroll = () => {
-        setIsScrolled(window.pageYOffset === 0 ? true: false);
-        return () => (window.onscroll = null)
-      }
+    // const[isScrolled, setIsScrolled] = useState(false);
+    //   window.onscroll = () => {
+    //     setIsScrolled(window.pageYOffset === 0 ? true: false);
+    //     return () => (window.onscroll = null)
+    //   }
     // <nav className={isScrolled ? "navbardefault transition ease-in duration-500 z-40 ": "navbarscrolled transition ease-out duration-500 z-40"}></nav>
 
     return (
-    <nav className={isScrolled ? "navbardefault transition ease-in duration-500 z-40 ": "navbarscrolled transition ease-out duration-500 z-40"}>
+    <nav className={ "navbarscrolled transition ease-out duration-500 z-40"}>
       <div className='fixed h-[4.25rem] flex items-center w-screen'>  
         <div className='flex justify-between w-screen items-center '> 
             <ul className='flex items-center mx-[3rem] '>
