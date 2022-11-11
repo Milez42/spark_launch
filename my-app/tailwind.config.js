@@ -16,5 +16,7 @@ module.exports = {
       russo:['Russo One']
     }},
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 }
