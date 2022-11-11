@@ -17,12 +17,13 @@ code {
 }
 
 
+/*========================== NAVIGATION ========================== */
 .navbardefault{
-  @apply fixed z-20 w-full h-[4.25rem]  bg-gradient-to-b from-navbg/60   text-white 
+  @apply fixed z-20 w-full h-[5rem]  bg-gradient-to-b from-navbg/60   text-white 
 }
 
 .navbarscrolled{
-  @apply fixed z-20 w-full h-[4.25rem]  bg-navbg
+  @apply fixed z-20 w-full h-[5rem]  bg-navbg flex items-center
 
 }
 

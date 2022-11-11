@@ -16,8 +16,7 @@ export const NavigationBar = () => {
 
     return (
     <nav className={ "navbarscrolled transition ease-out duration-500 z-40"}>
-      <div className='fixed h-[4.25rem] flex items-center w-screen'>  
-        <div className='flex justify-between w-screen items-center '> 
+        <div className='flex justify-between w-screen'> 
             <ul className='flex items-center mx-[3rem] '>
                 <Image src={logo} alt='/' className='navlogo' />   
                 <li className='navTextIcon mx-2 flex'>SparkLaunch </li>
@@ -33,7 +32,6 @@ export const NavigationBar = () => {
             </ul>
             
         </div>
-      </div>
     </nav>
      
     )

@@ -5,6 +5,8 @@ import img2 from '../../images/cruise.jpg';
 import img3 from '../../images/bionichand.jpg';
 import img4 from '../../images/islandskies.jpg'; 
 import img5 from '../../images/minipupper.jpg';
+// import img5 from '../../images/minipupper.jpg';
+import Image from 'next/image';
 
 function CardItem(props) {
   return (
@@ -12,7 +14,7 @@ function CardItem(props) {
         <li className="cards__item z-10">
             <div className='cards__item__link' to={props.path}>
                 <figure className="cards__item__pic-wrap object-cover" data-category={props.label}>
-                    <img src={props.src} alt="" height="500" width="700" className='object-cover'></img>
+                    <Image src={props.src} alt="" height="500" width="700" className='object-cover'/>
                 </figure>
                 <div className='absolute top-0 left-0 w-full h-full hover:bg-black/10 opacity-100 hover:opacity-100'></div>
                 <div className="cards__item__info">

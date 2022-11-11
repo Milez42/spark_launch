@@ -19,14 +19,14 @@ export default function Home() {
       </Head>
       <NavigationBar/>
 
-      <main className=' h-[50rem] pt-[4rem]'>
+      <main className=' pt-[4rem]'>
         {/* <Banner/> */}
-        {/* <Launched/> */}
+        <Launched/>
         <PopNew/>
       </main>
 
       <footer className="">
-      {/* <Footer/> */}
+      <Footer/>
       
       </footer>
     </div>
