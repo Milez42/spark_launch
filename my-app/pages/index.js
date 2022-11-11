@@ -19,7 +19,7 @@ export default function Home() {
       </Head>
       <NavigationBar/>
 
-      <main className=' h-[50rem] pt-4'>
+      <main className=' h-[50rem] pt-[4rem]'>
         {/* <Banner/> */}
         {/* <Launched/> */}
         <PopNew/>
