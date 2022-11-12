@@ -17,11 +17,11 @@ const MovieContainer = ({item}) => {
               <div className='absolute top-0 left-0 w-full h-full hover:bg-black/10 opacity-100 hover:opacity-100'></div>
   
               <ul>
-                <li className='flex mt-4 px-4'>
+                <li className='flex mt-4 '>
                   <p className='mx-2 text-projnameblue'>{item?.title} </p> 
                   <p className='mx-2'>Funded {item?.funded}%</p>  
                 </li>
-                <li className='mx-2 p-4 static   whitespace-normal'> 
+                <li className='mx-2 static whitespace-normal'> 
                   {item?.description}
                 </li>
               </ul>
