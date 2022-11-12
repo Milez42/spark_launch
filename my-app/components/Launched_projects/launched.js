@@ -20,7 +20,7 @@ function CardItem(props) {
                 <div className="cards__item__info">
                     <h5 className='flex'>{props.name} <p className="cards__item__text mx-4">Funded {props.funded}%</p></h5>
                     
-                    <p className="cards__item__text">{props.text}</p>
+                    <p className="cards__item__text">{props.text}</p> 
                 </div>
             </div>
         </li>

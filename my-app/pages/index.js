@@ -6,7 +6,7 @@ import Footer from '../components/Footer/footer'
 import Banner from '../components/Banner/Banner' 
 import Launched from '../components/Launched_projects/launched'
 import PopNew from '../components/Popular&new_projects/pop&new'
-
+import Layout from '../components/Banner/layout'
 
 export default function Home() {
   return (
@@ -20,13 +20,14 @@ export default function Home() {
       <NavigationBar/>
 
       <main className=' pt-[4rem]'>
-        {/* <Banner/> */}
+        <Banner/>
         <Launched/>
-        <PopNew/>
+        <PopNew/> 
       </main>
 
       <footer className="">
       <Footer/>
+  
       
       </footer>
     </div>
