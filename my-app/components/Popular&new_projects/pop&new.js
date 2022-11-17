@@ -3,6 +3,7 @@ import React from 'react';
 import { useEffect, useState } from "react";
 import axios from "axios"; 
 import request from "../../Request_Api"; 
+import Link from "next/link";
 
 const MovieContainer = ({item}) => {
 
@@ -75,8 +76,13 @@ const PopNew= () => {
   
           <div className=''>
             <div className='grid gap-y-[2rem]  mb-[8.1rem]'>
+            <Link href="/projectpage">
               <MovieRow rowID="1" title="Popular Projects" fetchURL={request.requestPopular} />
+            </Link>
+
+            <Link href="/projectpage">
               <MovieRow rowID="2" title="New Projects" fetchURL={request.requestNew} />
+            </Link>
             </div>
           </div>
       </div>
